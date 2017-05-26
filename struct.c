@@ -20,7 +20,7 @@ int main() {
 void preencheOsAnimais(Animal animais[]) {
   printf("Digite os %d nomes dos animais: \n", MAX_ANIMAL);
   for(int i = 0; i < MAX_ANIMAL; i++) {
-    scanf("%s", animais[i].nome);
+    scanf("%s", &animais[i].nome);
   }
 }
 
