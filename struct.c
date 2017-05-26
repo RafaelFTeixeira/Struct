@@ -9,7 +9,7 @@ void preencheOsAnimais(Animal animais[]);
 void imprimaOsAnimais(Animal animais[]);
 
 int main() {
-  struct Animal animais[MAX_ANIMAL];
+  Animal animais[MAX_ANIMAL];
 
   preencheOsAnimais(animais);
   imprimaOsAnimais(animais);
